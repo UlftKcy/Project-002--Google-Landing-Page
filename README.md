@@ -1,4 +1,4 @@
-# Project-002--Google-Landing-Page#
+# Project-002--Google-Landing-Page
 ## Description
 Project aims to create google landing page.
 ## Problem Statement
