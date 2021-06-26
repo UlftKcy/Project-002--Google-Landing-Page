@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div id="nav">
+    <div id="nav" class="clearfix">
         <nav class="header-left">
             <ul>
                 <li><a href="#" class="header-nav-item">About</a></li>
@@ -33,7 +33,7 @@
                         class="header-nav-item">Images</a>
                 </li>
                 <li>
-                    <a href="" target="_blank" class="header-nav-item"><img src="./images/appicon.png" alt="" />
+                    <a href="" target="_blank" class="header-nav-item"><img src="./images/appicon.png" alt="appicon" />
                     </a>
                 </li>
                 <li>
@@ -44,27 +44,30 @@
         </nav>
     </div>
     <div class="searchbar">
-        <div class="google-logo">
-            <img src="./images/googlelogo.png" alt="" />
+        <div class="search">
+            <div class="google-logo">
+                <img src="./images/googlelogo.png" alt="" />
+            </div>
+            <div class="search-box">
+                <a href="#"><img class="glass" src="./images/Magnifying_glass_icon.png" alt="glass" /></a>
+                <input type="text" name="search"/ id="search-input">
+                <a href="#"><img class="voice" src="./images/google_microphone.png" alt="microphone" /></a>
+            </div>
+            <div class="buttons">
+                <button class="search-button" type="button">Google Search</button>
+                <button class="search-button" type="button">I'm feeling lucky</button>
+            </div>
+            <div class="search-par">
+                <p>
+                    Other Language you can see Google:
+                    <a href="#" style="color: blue">English</a>
+                </p>
+            </div>
         </div>
-        <div class="search-box">
-            <a href="#"><img class="glass" src="./images/Magnifying_glass_icon.png" alt="" /></a>
-            <input type="text" name="search" />
-            <a href="#"><img class="voice" src="./images/google_microphone.png" alt="" /></a>
-        </div>
-        <div class="buttons">
-            <button class="search-button" type="button">Google Search</button>
-            <button class="search-button" type="button">I'm feeling lucky</button>
-        </div>
-        <div class="search-par">
-            <p>
-                Other Language you can see Google:
-                <a href="#" style="color: blue">English</a>
-            </p>
-        </div>
+
     </div>
 
-    <footer id="footer">
+    <footer id="footer" class="clearfix">
         <ul>
             <li><a href="">Turkey</a></li>
         </ul>
